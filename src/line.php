@@ -8,7 +8,7 @@ use LINE\LINEBot\MessageBuilder\TextMessageBuilder;
 use LINE\LINEBot\MessageBuilder\MultiMessageBuilder;
 use LINE\LINEBot\Constant\HTTPHeader;
 
-require_once(__DIR__ . "../vendor/autoload.php");
+require_once(__DIR__ . "/../vendor/autoload.php");
 
 if (isset($_SERVER["HTTP_" . HTTPHeader::LINE_SIGNATURE])) {
 
